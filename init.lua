@@ -4,3 +4,5 @@ require('config.neovim.keymaps')
 require('config.neovim.autocommands')
 require('config.neovim.colorscheme')
 
+-- Plugins --
+require('config.packer.plugins')
