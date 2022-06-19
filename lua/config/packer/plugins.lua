@@ -49,6 +49,7 @@ return packer.startup(function(use)
   -- Colorschemes
   use "lunarvim/darkplus.nvim"
 
+  -- Nvim-tree
   use {
     'kyazdani42/nvim-tree.lua',
     requires = {
@@ -56,6 +57,15 @@ return packer.startup(function(use)
     },
     tag = 'nightly' -- optional, updated every week. (see issue #1193)
   }
+
+  -- Gitsign
+  use {
+    'lewis6991/gitsigns.nvim',
+    -- tag = 'release' -- To use the latest release
+  }
+
+  -- Vim fugitive
+  use 'tpope/vim-fugitive'
 
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins
