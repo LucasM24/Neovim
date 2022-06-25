@@ -67,13 +67,19 @@ return packer.startup(function(use)
   -- Vim fugitive
   use 'tpope/vim-fugitive'
 
-  --Indentline
+  -- Indentline
   use "lukas-reineke/indent-blankline.nvim"
 
+  -- Comments
   use {
     'numToStr/Comment.nvim'
   }
 
+  -- Treesitter
+  use {
+    'nvim-treesitter/nvim-treesitter',
+    run = ':TSUpdate'
+  }
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins
   if PACKER_BOOTSTRAP then
