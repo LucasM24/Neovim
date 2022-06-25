@@ -43,7 +43,7 @@ keymap('v', '>', '>gv', {})
 -- Telescope keymaps
 keymap('n', '<Leader>ff', ':Telescope find_files<CR>',{})
 keymap('n', '<Leader>fg', ':Telescope live_grep<CR>',{})
-keymap('n', '<Leader>fb', ':Telescope buffers<CR>',{})
+keymap('n', '<Leader>fb', ':Telescope git_branches<CR>',{})
 keymap('n', '<Leader>fh', ':Telescope help_tags<CR>',{})
 
 -- Move text up and down
