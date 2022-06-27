@@ -39,7 +39,7 @@ nvim_tree.setup {
   reload_on_bufenter = false,
   respect_buf_cwd = false,
   view = {
-    adaptive_size = false,
+    adaptive_size = true,
     centralize_selection = false,
     width = 30,
     height = 30,
@@ -161,7 +161,7 @@ nvim_tree.setup {
       max_folder_discovery = 300,
     },
     open_file = {
-      quit_on_open = false,
+      quit_on_open = true,
       resize_window = true,
       window_picker = {
         enable = true,
