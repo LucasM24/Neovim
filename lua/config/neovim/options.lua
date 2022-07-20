@@ -10,7 +10,6 @@ set.termguicolors = true
 set.hidden = true
 set.backup = false
 set.swapfile = false
-vim.api.nvim_exec ('language en_US', true)
 set.autoindent = true
 set.smartindent = true
 set.clipboard = "unnamedplus"  -- allows neovim to access the system clipboard
