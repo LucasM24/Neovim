@@ -117,6 +117,9 @@ return packer.startup(function(use)
   -- Bufferline
   use {'akinsho/bufferline.nvim', tag = "v2.*", requires = 'kyazdani42/nvim-web-devicons'}
 
+  --Colorizer
+  use 'norcalli/nvim-colorizer.lua'
+
   -- Automatically set up your configuration after cloning packer.nvim
   -- Put this at the end after all plugins
   if PACKER_BOOTSTRAP then
